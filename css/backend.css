@@ -1,0 +1,24 @@
+.form{
+    max-width: 500px;
+    margin: 50px auto;
+}
+.form textarea{
+   height:150px !important;
+}
+
+form textarea , form input{
+margin: 10px; 
+}
+ 
+
+.form input:not([type='submit']) + i{
+    height: 0px;
+    float: left;
+    position: relative;
+    margin-top: -38;
+    margin-left: 20px;
+}
+
+.form input{
+    padding-left:30px;
+}
